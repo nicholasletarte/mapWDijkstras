@@ -69,40 +69,6 @@ def setup_coordinates(city_data):
 
 
 def get_coordinates(city):
-    # Define the coordinates for each city
-    # coordinates = {
-    #     'Newport': (41.49008, -71.312796),
-    #     'Boston': (42.3601, -71.0589),
-    #     'Manchester': (42.9956, -71.4548),
-    #     'Portland': (43.6615, -70.2553),
-    #     'Worcester': (42.2626, -71.8023),
-    #     'Hartford': (41.7637, -72.6851),
-    #     'Providence': (41.824, -71.4128),
-    #     'Concord': (43.2081, -71.537),
-    #     'Burlington': (44.4759, -73.2121),
-    #     'Chicago': (41.8781, -87.6298),
-    #     'Los Angeles': (34.0522, -118.2437),
-    #     'Houston': (29.7604, -95.3698),
-    #     'Miami': (25.7617, -80.1918),
-    #     'Seattle': (47.6062, -122.3321),
-    #     'Denver': (39.7392, -104.9903),
-    #     'Atlanta': (33.7490, -84.3880),
-    #     'New York City': (40.7128, -74.0060),
-    #     'San Francisco': (37.7749, -122.4194),
-    #     'Dallas': (32.7767, -96.7970),
-    #     'Salt Lake City': (40.7608, -111.8910),
-    #     'Las Vegas': (36.1699, -115.1398),
-    #     'Phoenix': (33.4484, -112.0740),
-    #     'Philadelphia': (39.9526, -75.1652),
-    #     'Tulsa': (36.1540, -95.9928),
-    #     'Des Moines': (41.5868, -93.6250),
-    #     'Milwaukee': (43.0389, -87.9065),
-    #     'Wichita': (37.6872, -97.3301),
-    #     'Boise': (43.6150, -116.2023),
-    #     'Memphis': (35.1495, -90.0490),
-    #     'New Orleans': (29.9511, -90.0715)
-    # }
-
     # Retrieve the coordinates for the given city
     return coordinates.get(city, (0, 0))  # Default to (0, 0) if coordinates are not found
 # new ----------------------------------------------------

@@ -1,15 +1,14 @@
 """
 Data collection script:
 This data collection script uses OpenStreetMap (OMS) which is an open source API that is free
-for public use. There are other map API such as Google Maps distance matrix API, but the
-service costs money and hence we don't think would be appropriate for this project (I'm broke lol).
+for public use.
 
 The script is implemented based on this tutorial https://github.com/vaclavdekanovsky/data-analysis-in-examples/blob/master/Maps/Driving%20Distance/Driving%20Distance%20between%20two%20places.ipynb
 section "Distances between multiple cities and optimal route".
 
 The initial dataset was obtained from https://simplemaps.com/data/us-cities. The spreadsheet contains a list of cities based on US Census, and
-contains coordinates data (longitude and latitude). To make the database more relevant to our project, we narrow down the list of cities to
-just the New England region, and selected cities which has more than 50,000 people. The final result contains 47 cities.
+contains coordinates data (longitude and latitude). To make the database relevant to the project, we narrow down the list of cities to
+the New England region, and selected cities which has more than 50,000 people. The final result contains 47 cities.
 """
 import pandas as pd  # for data manipulation
 import requests  # for calling OMS api
